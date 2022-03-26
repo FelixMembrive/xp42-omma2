@@ -1,0 +1,136 @@
+main>section>h2 {
+    background: url(../images/contato/imagem-superior.png) 50% 0 no-repeat;
+    height: 405px;
+    margin-top: 0;
+}
+
+main>section>h2>p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    margin: 0;
+    margin-bottom: 133px;
+    padding: 49px 120px;
+    width: 419px;
+}
+
+main>section>h2>p::after {
+    content: ' :)'
+}
+
+#imagem-contato {
+    border-radius: 20px;
+    Width: 350px;
+    Height: 771px;
+    background: url(../images/contato/imagem-lateral.png) no-repeat;
+}
+
+form {
+    display: flex;
+    margin-top: 133px;
+    justify-content: center;
+    margin-bottom: 133px;
+}
+
+fieldset {
+    border: solid black;
+    width: 820px;
+    height: auto;
+    margin-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+fieldset>div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+legend {
+    margin: 64px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffbf00;
+}
+
+label>input {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 30px;
+    margin: 0 0 22.8px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: #58555D;
+}
+
+textarea {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    padding: 25px 30px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: #58555D;
+    resize: vertical;
+}
+
+#botao-enviar {
+    width: 164.18px;
+    height: 48.65px;
+    margin: 14px 0;
+    border: none;
+    background: #FFC107;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 769px) {
+    form {
+        display: flex;
+        margin-top: 0px;
+        justify-content: center;
+        margin-bottom: 22px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    main>section>h2>p {
+        font-size: 40px;
+        width: 300px;
+        padding: auto;
+        padding-left: 15%;
+        padding-right: 0;
+    }
+    main>section>h2 {
+        background-position: -600px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,117 @@
+#article1 {
+    background: url(../images/inicio/banner-principal.png) 50% no-repeat;
+    height: 638.18px;
+}
+
+#article2 {
+    background: url(../images/inicio/banner-inferior.png) 50% no-repeat;
+    height: 772px;
+}
+
+#text-article1,
+#text-article2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#text-article1 {
+    padding: 166px 0 0 0;
+    margin: 0 8% 0 0px;
+    float: right;
+    width: 400px;
+}
+
+#text-article2 {
+    margin-top: 40px;
+    padding-top: 163px;
+    padding-left: 122px;
+}
+
+#titulo-receitas {
+    margin: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFA000;
+}
+
+#receitas_da_semana {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+main>section>div>article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin: 13px 0 18px;
+}
+
+article a {
+    color: #ffffff;
+    background: #176902;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 90px 0px 90px;
+    padding: 10px 43px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+article p {
+    margin-left: 123px;
+    width: 424px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 460px) {
+    #text-article1 {
+        font-size: 50px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #article1 {
+        background: url(/OMMA-Yuri/assets/images/inicio/banner-principal.png) 50% 20% no-repeat;
+        height: 400px;
+    }
+    #text-article1 {
+        padding: 122px 0 0 0;
+    }
+    #text-article2 {
+        padding-left: 90px;
+        width: 510px;
+        margin-bottom: 60px;
+    }
+    article p {
+        margin: 24px 90px;
+    }
+}
